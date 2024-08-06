@@ -24,6 +24,8 @@ blue_rect.topleft = (100, 100)
 red_rect = red_image.get_rect()
 red_rect.topleft = (200, 200)
 
+rect = pygame.draw.circle(200,200,50)
+
 speed = 300
 delta_speed = 0
 
@@ -57,7 +59,7 @@ while running:
     red_rect.y = max(0, min(red_rect.y, screen.get_height() - red_rect.height)) 
     
      
-    screen.fill(color.white)
+    screen.fill(color.rand)
     
     screen.blit(blue_image, blue_rect)
     screen.blit(red_image, red_rect)
