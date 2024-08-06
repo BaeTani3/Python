@@ -11,7 +11,7 @@ y = screen.get_size()[1]//2
 
 ## <<-- fps 적용을 위한 시간 객체 생성
 clock = pygame.time.Clock()
-fps = 60
+fps = 30
 
 # 이동속도
 speed = 300 # 10픽셀 * 30프레임 = 300픽셀/초
