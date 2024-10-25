@@ -1,18 +1,18 @@
-# value = 3
+value = 3
 
-# # 조건식의 결과 값의 자료형(Data type) => Boolean
-# if value == 2:
-#     print("A")
-#     print("B")
-#     print("C")
-#  # 문법은 매우 중요하다. 1칸이든 3칸이든 같은 그룹은 줄 맞춘다. 
-# if (value == 3):
-#  print("A")
-#  print("B")
-#  print("C") 
+# 조건식의 결과 값의 자료형(Data type) => Boolean
+if value == 2:
+    print("A")
+    print("B")
+    print("C")
+ # 문법은 매우 중요하다. 1칸이든 3칸이든 같은 그룹은 줄 맞춘다. 
+if (value == 3):
+ print("A")
+ print("B")
+ print("C") 
  
 #########################################################
-'''
+
 model = input("자동차 모델을 입력: ")
 
 list_bmw = ["M1", "M2", "M3", "M4", "M5", "M8", "M9", "M7"]
@@ -41,20 +41,20 @@ for model_in_list in list_genesis:
         break
 
 maker = maker if maker != "" else "알 수 없는 모델입니다."   # 2번째 방법 삼항연산자
-print(maker) '''
+print(maker) 
 
 
-# # 주석이 없다면 가능한 붙여서 써라 coding style
-# if model in list_bmw[:]:
-#     maker = "BMW"
-# elif model in list_tesla[:]:
-#     maker = "Tesla"
-# elif model in list_lexus[:]:
-#     maker = "Lexus"
-# elif model in list_genesis[:]:
-#     maker = "Hyundai"
-# else :
-#     maker = "알수 없는 모델 입니다.
+# 주석이 없다면 가능한 붙여서 써라 coding style
+if model in list_bmw[:]:
+    maker = "BMW"
+elif model in list_tesla[:]:
+    maker = "Tesla"
+elif model in list_lexus[:]:
+    maker = "Lexus"
+elif model in list_genesis[:]:
+    maker = "Hyundai"
+else :
+    maker = "알수 없는 모델 입니다.
 
 ###############################################################
 

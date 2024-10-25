@@ -51,36 +51,36 @@ def move_random():
     colors = ["red", "green", "blue", "yellow", "purple", "orange"]
     t.pencolor(random.choice(colors))
     
-# def change_color():
+def change_color():
     
-#     print("색깔 선택\n1.파란색\n2.검정색\n3.노란색")
-#     while True:
-#         input_value = int(input("숫자 입력: "))
+    print("색깔 선택\n1.파란색\n2.검정색\n3.노란색")
+    while True:
+        input_value = int(input("숫자 입력: "))
         
-#         if 1 <= input_value <= 3:
-#             # 중첩 if문 (and 조건 성립)
-#             if input_value == 1:
-#                 t.pencolor("blue")
-#             elif input_value == 2:
-#                 t.pencolor("black")
-#             elif input_value == 3:
-#                 t.pencolor("yellow")
+        if 1 <= input_value <= 3:
+            # 중첩 if문 (and 조건 성립)
+            if input_value == 1:
+                t.pencolor("blue")
+            elif input_value == 2:
+                t.pencolor("black")
+            elif input_value == 3:
+                t.pencolor("yellow")
 
-#         break
+        break
            
-#     # 좀 더 나이스한 방법
-#     while not (1 <= input_value <= 3):
-#         input_value = int(input("숫자 입력: "))
+    # 좀 더 나이스한 방법
+    while not (1 <= input_value <= 3):
+        input_value = int(input("숫자 입력: "))
         
-#     if input_value == 1:
-#         t.pencolor("blue")
-#     elif input_value == 2:
-#         t.pencolor("black")
-#     elif input_value == 3:
-#         t.pencolor("yellow")
+    if input_value == 1:
+        t.pencolor("blue")
+    elif input_value == 2:
+        t.pencolor("black")
+    elif input_value == 3:
+        t.pencolor("yellow")
 
         
-# print(change_color())         
+print(change_color())         
 
 # 키보드 이벤트를 설정
 screen.listen()
